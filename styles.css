@@ -19,3 +19,21 @@ html, body { margin:0; padding:0; height:100%; }
 .page-footer {
     background-color: #8B4513 !important;
 }
+
+.authorResults {
+  background-color: white;
+  color:black;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.bookResults {
+  background-color: white;
+  color:black;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  font-size: 22px;
+}

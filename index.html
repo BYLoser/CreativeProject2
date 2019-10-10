@@ -9,12 +9,15 @@
   <body style="color:#ffffff">
     <h1 class='center'>Find a Book!</h1>
     
+    <!--web for google APIs: https://www.googleapis.com/books/v1/volumes?q=BraveNewWorld-->
+    
     <form class="center">
       <label>Enter an author:</label>
       <input id="authorInput" type="text"></input><br/>
       <input id="authorSubmit" type="submit" value="Submit"></input>
     </form>
-    <div id="authorResults">
+    
+    <div id="authorResults", class = "authorResults">
     </div>
     
     
@@ -23,7 +26,7 @@
       <input id="bookInput" type="text"></input><br/>
       <input id="bookSubmit" type="submit" value="Submit"></input>
     </form>
-    <div id = "bookResults">
+    <div id = "bookResults", class = "bookResults">
     </div>
     <!--figure out how to make this work as a separate function from the previous thingy-->
 
