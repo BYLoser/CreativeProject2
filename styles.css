@@ -10,18 +10,22 @@ body {
   background-attachment: fixed;
 }
 html, body { margin:0; padding:0; height:100%; }
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
 .page-footer {
     background-color: #8B4513 !important;
 }
 
 .authorResults {
-  background-color: white;
+  background-color: #8b4513;
+  padding: 25px 25px 25px 25px;
+  
   color:black;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
