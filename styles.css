@@ -12,11 +12,19 @@ body {
 }
 html, body { margin:0; padding:0; height:100%; }
 
+.centerTitle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 .page-footer {
@@ -24,6 +32,7 @@ html, body { margin:0; padding:0; height:100%; }
 }
 
 .authorResults {
+  
   background-color: #8b4513;
   color:white;
   text-align: center;
