@@ -13,7 +13,7 @@ document.getElementById("authorSubmit").addEventListener("click", function(event
       return response.json();
     }).then(function(json) {
       let results = "";
-      results += '<h2>Authors Books(' + value + ")</h2></div>";
+      results += '<h2>' + value + '\'s Books</h2></div>';
       results += "<div class='row'><div class='col-sm'>";
       for (let i = 0; i < json.items.length; i++) {
         results += '<p>' + json.items[i].volumeInfo.title + '</p>';
